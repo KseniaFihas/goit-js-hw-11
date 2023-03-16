@@ -103,7 +103,7 @@ function createMarkup(arr) {
                     </div>
             </div>
         </a>`).join("");
-    refs.gallery.innerHTML("beforeend", markup);
+    refs.gallery.insertAdjacentHTML("beforeend", markup);
     simpleLightbox.refresh();
 }
 
